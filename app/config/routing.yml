@@ -1,0 +1,7 @@
+bd_front:
+    resource: "@BdFrontBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
